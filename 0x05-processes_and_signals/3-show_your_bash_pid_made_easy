@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# Prints parent PID using ps
 ps -o ppid= -p "$$"
