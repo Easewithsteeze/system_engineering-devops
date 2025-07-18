@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that lists your running processes
+# A Bash script that lists running processes of the current user
 
-ps -u "$(whoami)" -o user=,comm=
+ps -u "$(whoami)" -o user=
