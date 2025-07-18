@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Infinite loop sleeping every 2 seconds
+while true
+do
+    sleep 2
+done
